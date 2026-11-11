@@ -1,0 +1,33 @@
+# ---- 通用 ----
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# ---- 日志与临时文件 ----
+*.log
+*.tmp
+.cache/
+
+# ---- 编辑器 / IDE ----
+.idea/
+.vscode/
+*.iml
+
+# ---- 构建产物（后续若加入代码/模块工程）----
+build/
+out/
+dist/
+*.zip
+*.apk
+*.jar
+
+# ---- 本地环境与密钥 ----
+.env
+.env.*
+local.properties
+*.keystore
+*.jks
+
+# ---- 本地阅读资料，不入库 ----
+模块开发指南/
